@@ -14,7 +14,7 @@ import BussinessLayer.User;
 
 public class UserDataHandler extends SQLiteOpenHelper{
 
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 3;
     private static final String DATABASE_NAME = "dbUsers";
     private static final String TABLE_USERS = "Users";
     private static final String KEY_USERNAME = "username";
